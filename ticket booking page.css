@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:8px;
+   background-image: url(background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#name{
+    text-decoration:none;
+    color: white;
+    text-shadow: 0 0 7px;
+
+}
+.logo h1{
+    font-size: 3rem;
+    text-shadow: 0 0 7px white;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav .logo{
+    font-size: 1.5rem;
+}
+
+nav .links {
+    display: flex;
+}
+
+nav .links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+
+
+
+nav .buttons{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .buttons button{
+    margin: 0 5px;
+    width: 60px;
+    height: 5vh;
+    
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    
+    transition: 0.2s linear;
+}
+
+.buttons button:hover{
+    
+    background-color: transparent;
+    
+    
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    text-align: left;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header .contact-info p {
+    margin: 0;
+    text-align: right;
+}
+
+/* Navigation */
+nav {
+    
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Booking Section */
+.book-tickets-section {
+    padding: 20px;
+    background-color:rgb(9, 141, 248);
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.book-tickets-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+#b1{
+    background-color: #0f66d8;
+    height: 60px;
+    width: 100px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+}
+#b2{
+    background-color: #0f66d8;
+    height: 60px;
+    width: 150px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(10, 133, 10);
+}
+
+/* Promotion Section */
+.promotion-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.promotion-section h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.promotion-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.promotion-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgb(34, 233, 34);
+    margin-top: 20px;
+}

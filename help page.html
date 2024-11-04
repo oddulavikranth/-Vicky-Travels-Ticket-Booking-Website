@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help/Login Modal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3b8ef3, #8f4bcf);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .modal {
+            width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #335cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h3 {
+            color: #3352ff;
+            font-size: 18px;
+            margin: 0;
+        }
+        .content p {
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .content .login-section {
+            margin-top: 20px;
+        }
+        .content .login-section input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .content .login-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3352ff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .content .login-section button:hover {
+            background-color: #2b5ee0;
+        }
+        .content .divider {
+            margin: 20px 0;
+            text-align: center;
+            color: #aaa;
+        }
+        .content .google-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #333;
+            font-size: 16px;
+        }
+        .content .google-login img {
+            width: 20px;
+            margin-right: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+        .footer a {
+            color: #3392ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <div class="header">
+            Login to Vicky Travels
+        </div>
+        <div class="content">
+            <h3>Happy to Help</h3>
+            <p>24/7 chat support for faster query resolution</p>
+            <p>- Login Bookings - Enter Account Mobile Number<br>- Guest Booking - Enter Booking Mobile Number</p>
+            
+            <div class="login-section">
+                <input type="text" placeholder="Enter Mobile Number" />
+                <button>Login</button>
+            </div>
+            
+            <div class="divider">Or Continue With</div>
+            
+            <div class="google-login">
+                <img src="google logo.jpg" style="height: 50px; width: 60px;" alt="Google logo" />
+                Sign in with Google
+            </div>
+        </div>
+        <div class="footer">
+            By logging in, I understand & agree to AbhiBus <a href="#">terms of use</a> & <a href="#">privacy policy</a>.
+        </div>
+    </div>
+</body>
+</html>

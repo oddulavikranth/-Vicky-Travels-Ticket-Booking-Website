@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3b8ef3, #8f4bcf);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-btn {
+    background-color: #fcfbfb;
+    border: 1px solid #d9d1d1;
+  }
+  
+  .apple-btn {
+    background-color: rgb(255, 254, 254);
+    border: 1px solid #d9d1d1;
+  }
+  
+  .google-btn img,
+  .apple-btn img {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .divider {
+    margin: 10px 0;
+    color: #606060;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .next-btn {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .forgot-link,
+  .signup-link {
+    font-size: 14px;
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
+  .signup-link {
+    font-weight: bold;
+  }
+  
+  .forgot-link:hover,
+  .signup-link:hover {
+    text-decoration:underline;
+}
